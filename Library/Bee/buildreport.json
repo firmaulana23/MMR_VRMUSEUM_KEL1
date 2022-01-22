@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 96689935324.1,"dur": 6413223.5, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 96690039663.5,"dur": 37749.4, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 96691512524.4,"dur": 4766375, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "01/11/2022 13:47:00",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.7f1\\Editor\\Unity.exe\" -projectpath \"D:\\Percodingan\\Unity\\Project Files\\MMR_PROJECT_FIX\" -useHub -hubIPC -cloudEnvironment production -skipUpgradeDialogs -hubSessionId 7db80360-727e-11ec-b7f6-cf97e6ad672c -accessToken OPumauKC-NWrKd0kvAnORZfisHMGBgWY1Aygr9RazRM011f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.2.7f1\\Editor\\Unity.exe -projectpath D:\\Percodingan\\Unity\\Project Files\\MMR_PROJECT_FIX -useHub -hubIPC -cloudEnvironment production -skipUpgradeDialogs -hubSessionId 7db80360-727e-11ec-b7f6-cf97e6ad672c -accessToken OPumauKC-NWrKd0kvAnORZfisHMGBgWY1Aygr9RazRM011f",
+"meta_user_name": "zharf",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "8"
+}
